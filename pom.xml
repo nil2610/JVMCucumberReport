@@ -79,7 +79,7 @@
 			<scope>test</scope>
 		</dependency>
   </dependencies>
-
+<!--  add for this maven command line run -->
   <build>
     	<plugins>
             <plugin>
