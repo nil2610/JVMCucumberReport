@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="469" started-at="2019-03-19T04:43:17Z" finished-at="2019-03-19T04:43:17Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="469" started-at="2019-03-19T04:43:17Z" finished-at="2019-03-19T04:43:17Z">
+      <class name="com.runners.runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runners.runner@68837a77]" name="setUpClass" is-config="true" duration-ms="188" started-at="2019-03-19T04:43:17Z" finished-at="2019-03-19T04:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runners.runner@68837a77]" name="feature" duration-ms="163" started-at="2019-03-19T04:43:17Z" data-provider="features" finished-at="2019-03-19T04:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is feature one file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runners.runner@68837a77]" name="feature" duration-ms="11" started-at="2019-03-19T04:43:17Z" data-provider="features" finished-at="2019-03-19T04:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is feature two file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runners.runner@68837a77]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2019-03-19T04:43:17Z" finished-at="2019-03-19T04:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runners.runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
